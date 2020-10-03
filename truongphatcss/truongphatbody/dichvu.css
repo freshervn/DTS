@@ -1,0 +1,38 @@
+.dichvu {
+    background-color: #f9f9f9;
+    margin-top: 30px; 
+}
+.dichvu h3{
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+.dichvu .row:nth-child(even){
+    flex-direction: row-reverse;
+}
+.dichvu-package-content-img {
+    padding: 0;
+}
+.dichvu-package-content-img img{
+    width: 100%;
+    height: fit-content;
+}
+.dichvu-package-content-text{
+    margin-bottom: 20px;
+}
+.dichvu-package-content-text h3{
+    color: #0971b8;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.dichvu-package-content-text button{
+    background-color: inherit;
+    color: #0971b8;
+    border: 1px solid #0971b8;
+    border-radius: 5px;
+    padding: 10px 35px;
+}
+.dichvu-package-content-text button:hover{
+    color: white;
+    background-color: #0971b8;
+}

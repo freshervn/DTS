@@ -1,0 +1,100 @@
+.TitleUnderLine {
+    color: #1c699f;
+    width: fit-content;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #c58c5f;
+    font-weight: 700;
+}
+@media only screen and (max-width: 700px) {
+    .overview {
+        width: 100%;
+        height: 378px;
+        font-size: 12px;
+    }
+    .prev,
+    .next {
+        display: none;
+    }
+
+    .thuonghieu {
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        width: 90%;
+        height: 300px;
+        transform: translate(-50%, 0);
+        padding: 20px;
+        background-color: rgba(7, 112, 183, .7);
+        color: white;
+    }
+
+    .thuonghieu h1 {
+        font-size: 8vw;
+    }
+
+    .thuonghieu h2 {
+        font-size: 4vw;
+    }
+
+    .overview-button {
+        width: 150px;
+        height: 46px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+
+    h5 {
+        font-size: 12px;
+    }
+
+    h6 {
+        font-size: 12px;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    .overview-button {
+        width: 80px;
+        height: 36px;
+        margin-right: 20px;
+        font-size: 8px;
+        font-weight: 700;
+    }
+    .giatrithuonghieu-content{
+     border: none;
+ }
+
+ .gioithieuthuonghieu-package-content-img img,
+ .dichvu-package-content-img img {
+    width: 100%;
+    height: auto;
+}
+.thutuc{
+    padding: 0;
+}
+.thutuc div{
+    box-shadow: none;
+}
+.thutuc h5,p{
+    margin: 0px 0px 15px;
+}
+}

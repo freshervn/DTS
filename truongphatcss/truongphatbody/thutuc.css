@@ -1,0 +1,41 @@
+.thutuc{
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.thutuc div {  
+    height: 600px; 
+    padding: 0;
+    box-shadow: 3px 3px rgba(136, 136, 136,.4);
+    text-align: center;
+}
+.thutuc img{
+    width: 100%;
+    height: 280px;
+}
+.thutuc summary{
+    height: 256px;
+    text-align: left;
+}
+.thutuc h4{
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.thutuc h5,p{
+    margin: 5px 20px 15px;
+}
+.thutuc button{
+    margin:auto;
+    transform: translate(,0);
+    background-color: inherit;
+    color: #0971b8;
+    border: 1px solid #0971b8;
+    border-radius: 5px;
+    padding: 10px 35px;
+}
+.thutuc button:hover{
+    background: #0971b8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+} 
