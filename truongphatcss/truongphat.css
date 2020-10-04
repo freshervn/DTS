@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'UTM Avo Bold', 'UTM Avo Regular', 'UTM Avo';
+}
+body::-webkit-scrollbar {
+    display: none;
+}

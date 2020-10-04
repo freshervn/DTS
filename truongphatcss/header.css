@@ -1,0 +1,51 @@
+.headertop{
+	background-color: #0871b5;
+}
+.headertop>div{
+	text-align: right;
+}
+.headertop img{
+	width: 30px;
+	height: 20px;
+}
+.headertop ul{
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 50px;
+	padding-bottom: 0;
+	box-sizing: border-box;
+}
+.headertop li{
+	display: inline-block;
+	color: white;
+}
+.headertop i{
+	color: #ea8631;
+	font-size: 17px;
+	margin-left: 120px;
+	margin-top: 10px;
+}
+.headertop .fa-phone{
+font-size: 24px;
+position: relative;
+top:5px;
+}
+.truongphatnavbar img{
+	width:220px; 
+	height: 54px;
+}
+nav{
+	font-family: 'Roboto Bold', 'Roboto Regular', 'Roboto';
+    font-weight: 700;
+    font-style: normal;
+}
+nav button i{
+	color: #146f9c;
+}
+.nav-item{
+	font-family: 'Roboto Bold', 'Roboto Regular', 'Roboto';
+    font-weight: 700;
+    font-style: normal;
+    color: #0770B7;
+	margin-right: 30px;
+}

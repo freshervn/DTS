@@ -5,7 +5,7 @@
 .thutuc div {  
     height: 600px; 
     padding: 0;
-    box-shadow: 3px 3px rgba(136, 136, 136,.4);
+    box-shadow: 5px 5px 5px  rgba(136, 136, 136,.4);
     text-align: center;
 }
 .thutuc img{
@@ -16,12 +16,18 @@
     height: 256px;
     text-align: left;
 }
-.thutuc h4{
-    margin:auto;
-    margin-top: 10px;
-    margin-bottom: 25px;
+.thutuc >h4{
+    text-align: center;
+    color: #1c699f;
+    margin-top: 10px;   
 }
-.thutuc h5,p{
+.thutuc >hr{
+    width: 100px;
+    height: 1px;
+    margin-top: 0;
+    background-color:  #c58c5f;
+}
+.thutuc> h5,p{
     margin: 5px 20px 15px;
 }
 .thutuc button{
