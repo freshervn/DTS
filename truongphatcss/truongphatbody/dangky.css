@@ -1,6 +1,7 @@
 .dangky{
 	background-image:   linear-gradient(rgba(7, 112, 183, 0.8), rgba(7, 112, 183, 0.8)),url('images/u148.jpg');
 	background-size:cover;
+	background-repeat: no-repeat;
 	height: 300px;
 	color: white;
 }
@@ -16,10 +17,14 @@
 .dangky>form{
 	text-align: center;
 }
+.dangky>form> input{
+	font-family: arial;
+}
 .dangky>form> input[placeholder]{
 	width: 250px;
 	height: 40px;
 	margin:0 20px 20px;
+	padding: 1em;
 }
 .dangky>form>input[value]{
 	width: 94px;

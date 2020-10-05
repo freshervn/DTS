@@ -82,62 +82,62 @@
 
     .nav-item{
         background-color: #0770B7;
-        font-size: 10px !important;
+        font-size: 10px;
     }
+
     .navbar.navbar-expand-lg.navbar-light.bg-light .nav-item:hover{
         background-color: white;
     }
     .navbar.navbar-expand-lg.navbar-light.bg-light .nav-link
     {
-          font-size: 12px;
-          margin: 0px;
-          padding: 10px;
-    }
-    .navbar.navbar-expand-lg.navbar-light.bg-light .nav-link:hover{
-        color:  #0770B7 !important;
-        z-index: 1000;
-      
-    }
-    #navbarSupportedContent{
-        position: absolute;
-        top: 100%;
-        right: 0;
-        z-index: 1000;
-        align-self: right;
-        margin:0px;
-        padding: 0px;
-    }
-    .nav-link{
-        color: white !important;
-    }
-    .thuonghieu {
-        position: absolute;
-        top: 20%;
-        left: 50%;
-        width: 300px;
-        height: 200px;
-        transform: translate(-50%, 0);
-        padding: 20px;
-        background-color: rgba(7, 112, 183, .7);
-        color: white;
-    }
-
-    .thuonghieu h1 {
-        font-size: 6vw;
-    }
-
-    .thuonghieu h2 {
-        font-size: 3vw;
-    }
-    .thuonghieu h1,
-    h2 {
-      margin-top: 0px;
-  }
-  .noidungthuonghieu {
+      font-size: 12px;
       margin: 0px;
+      color: white;
+      padding: 10px;
   }
+  .navbar.navbar-expand-lg.navbar-light.bg-light .nav-link:hover{
+    color:  #0770B7 !important;
+    z-index: 1000;
+}
+#navbarSupportedContent{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    align-self: right;
+    margin:0px;
+    padding: 0px;
+}
 
-  .overview-button {
+.thuonghieu {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 300px;
+    height: 200px;
+    transform: translate(-50%, 0);
+    padding: 20px;
+    background-color: rgba(7, 112, 183, .7);
+    color: white;
+}
+
+.thuonghieu h1 {
+    font-size: 6vw;
+}
+
+.thuonghieu h2 {
+    font-size: 3vw;
+}
+.thuonghieu h1,
+h2 {
+  margin-top: 0px;
+}
+.noidungthuonghieu {
+  margin: 0px;
+}
+
+.overview-button {
     width: 80px;
     height: 30px;
     margin-right: 20px;
@@ -145,7 +145,7 @@
     font-weight: 700;
 }
 .giatrithuonghieu section{
-   border: none;
+ border: none;
 }
 
 .gioithieuthuonghieu-package-content-img img,
@@ -184,5 +184,19 @@
 }
 .tintuc form{
     display: none;
+}
+.dangky>div>h4{
+    margin: 10px; 
+}
+.dangky{
+    height: 230px;
+}
+.dangky>form> input[type="text"]{
+    width: 145px;
+    height: 25px;
+    margin: 5px;
+}
+.dangky>form> input[type="submit"]{
+    margin: 20px;
 }
 }

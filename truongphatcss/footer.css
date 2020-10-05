@@ -10,13 +10,24 @@ footer img{
 footer p{
 	margin-top: 10px;
 }
-footer>div> h5{
-	margin-bottom: 20px;
+/*xong cot 1*/
+.loaidichvu{
+	padding: 30px
 }
-footer hr{
-	margin: 0;
+.loaidichvu h5{
+	margin-bottom: 30px;
 }
-footer>div> h6{
+.loaidichvu p{
+	padding: 0;
+}
+.loaidichvu hr{
+	padding: 0px 5px;
+}
+
+.hotrokhachhang h5{
+	margin-bottom: 30px;
+}
+.hotrokhachhang h6{
 	margin-top:20px;
 	margin-bottom: 2px;
 }
