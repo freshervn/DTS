@@ -26,26 +26,39 @@
 	margin-top: 10px;
 }
 .headertop .fa-phone{
-font-size: 24px;
-position: relative;
-top:5px;
+	font-size: 24px;
+	position: relative;
+	top:5px;
 }
-.truongphatnavbar img{
-	width:220px; 
-	height: 54px;
+/*navbar*/
+.navbar-brand{
+	width: 50%;
 }
-nav{
-	font-family: 'Roboto Bold', 'Roboto Regular', 'Roboto';
-    font-weight: 700;
-    font-style: normal;
+.navbar .navbar-brand img {
+	width: 220px;
+	height: 53px;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+	background-color: white !important;
 }
 nav button i{
 	color: #146f9c;
 }
-.nav-item{
+.collapse.navbar-collapse.col-6{
+	margin: 0;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light .nav-link{
 	font-family: 'Roboto Bold', 'Roboto Regular', 'Roboto';
-    font-weight: 700;
-    font-style: normal;
-    color: #0770B7;
-	margin-right: 30px;
+	font-weight: 700;
+	font-size: 16px;
+	font-style: normal;
+	color: #0770B7;
+	margin-right: 20px;
+}
+.nav-link:hover{
+	filter: brightness(50%);
+}
+.dropdown-item:hover{
+	background-color:#f9f9f9; 
+	color:#0770B7; 
 }
