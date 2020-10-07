@@ -472,6 +472,10 @@ h5 {
 	height: 50px;
 	padding-left: 1em;
 }
+.lien-he form input[type='submit']:active{
+  background: #f58020;
+  border: none;
+}
 
 .thu-tuc{
   padding: 10px;
