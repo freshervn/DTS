@@ -112,7 +112,7 @@ nav button i{
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
-.thuonghieu {
+.thuong-hieu {
   position: absolute;
   top: 184px;
   right: 10%;
@@ -122,21 +122,21 @@ nav button i{
   color: white;
 }
 
-.overview .thuonghieu h1,
+.overview .thuong-hieu h1,
 h2 {
   font-weight: 700;
   margin-top: 15px;
 }
 
-.overview .thuonghieu h2 {
+.overview .thuong-hieu h2 {
   font-size: 25px;
 }
 
-.overview .thuonghieu p {
+.overview .thuong-hieu p {
   margin-top: 1em;
   height: 8em;
 }
-.overview .thuonghieu button{
+.overview .thuong-hieu button{
   width: 152px;
   height: 46px;
   background: inherit;
@@ -162,7 +162,7 @@ h2 {
   outline: none;
 }
 
-/*thuonghieu*/
+/*thuong-hieu*/
 .gia-tri-thuong-hieu {
   background-color: #f9f9f9;
   font-size: 12px;
@@ -272,36 +272,36 @@ h5 {
 }
 
 /*thu tuc*/
-.thutuc div {  
+.thu-tuc div {  
   padding: 0;
   box-shadow: 5px 5px 5px  rgba(136, 136, 136,.4);
   text-align: center;
 }
-.thutuc img{
+.thu-tuc img{
   width: 100%;
   height: 280px;
 }
-.thutuc summary{
+.thu-tuc summary{
   height: 256px;
   text-align: left;
   overflow-y: hidden;
   margin-bottom: 10px;
 }
-.thutuc h4{
+.thu-tuc h4{
   text-align: center;
   color: #1c699f;
   margin-top: 10px;   
 }
-.thutuc hr{
+.thu-tuc hr{
   width: 100px;
   height: 1px;
   margin-top: 0;
   background-color:  #c58c5f;
 }
-.thutuc h5,p{
+.thu-tuc h5,p{
   margin: 15px;
 }
-.thutuc button{
+.thu-tuc button{
   margin:auto;
   background-color: inherit;
   color: #0971b8;
@@ -310,52 +310,52 @@ h5 {
   padding: 10px 35px;
   margin-bottom: 20px;
 }
-.thutuc button:hover{
+.thu-tuc button:hover{
   background: #0971b8;
   color: white;
   border: none;
   border-radius: 5px;
 }
-.thutuc button:active{
+.thu-tuc button:active{
   background-color: inherit;
   border: 1px solid #0971b8;
   color:   #0971b8;
   transition: 0.5;
 }
-.thutuc button:focus{
+.thu-tuc button:focus{
   outline: none;
 }
 
 
-.dangky{
+.dang-ky{
 	background-image:   linear-gradient(rgba(7, 112, 183, 0.8), rgba(7, 112, 183, 0.8)),url('images/home/u148.jpg');
 	background-size:cover;
 	background-repeat: no-repeat;
 	height: 300px;
 	color: white;
 }
-.dangky>h5{
+.dang-ky>h5{
 	text-align: center;
 	padding: 25px;
 	background: rgb(7, 112, 183);
 }
-.dangky>div>h4{
+.dang-ky>div>h4{
 	text-align: center;
 	margin:40px;
 }
-.dangky>form{
+.dang-ky>form{
 	text-align: center;
 }
-.dangky>form> input{
+.dang-ky>form> input{
 	font-family: arial;
 }
-.dangky>form> input[placeholder]{
+.dang-ky>form> input[type="text"]{
 	width: 250px;
 	height: 40px;
 	margin:0 20px 20px;
 	padding: 1em;
 }
-.dangky>form>input[value]{
+.dang-ky>form>input[type="submit"]{
 	width: 94px;
 	height: 38px;
 	background: #f58020;
@@ -363,83 +363,95 @@ h5 {
 	border: none;
 	font-family: 'Arial';
 }
+.dang-ky>form>input[type="submit"]:hover{
+  border-radius: 5px;
+  background-color: #0971b8;
+  color: white;
+  border: none;
+  outline: none;
+}
+.dang-ky>form>input[type="submit"]:active{
+  background: #f58020;
+  color: white;
+  border: none;
+}
 
-.doitac{
+.doi-tac{
 	background-image:  linear-gradient(rgba(7, 112, 183, 0.8), rgba(7, 112, 183, 0.8)),url("images/home/u3.jpg");
 	background-size: cover;
 	color: white;
 }
-.doitac div h4{
+.doi-tac div h4{
 	text-align: center;
 	padding-top: 40px;
 }
-.doitac hr{
+.doi-tac hr{
   width: 100px;
   height: 1px;
   margin-top: 0;
   background-color:  #c58c5f;
 }
-.doitac div h6{
+.doi-tac div h6{
 	text-align: center;
 }
-.doitac figure{
+.doi-tac figure{
 	margin-top: 50px;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
-.doitac figure img {
+.doi-tac figure img {
 	width: 128px;
 	height: 66px;
 	background-color: white;
 }
-.doitac aside{
+.doi-tac aside{
 	padding: 20px;
 	margin-bottom: 50px;
 }
-.doitac aside div{
+.doi-tac aside div{
 	border: 1px solid;
 	height: 150px;
   overflow-x: hidden; 
 }
-.doitac aside div h6{
+.doi-tac aside div h6{
 	margin-top: 10px;
 	font-weight: bold;
 }
-.doitac aside div p{
+.doi-tac aside div p{
 	margin: 10px;
 }
-.lienhe h6{
+.lien-he h6{
 	margin-top: 50px;
 	font-weight: bold;
 	text-decoration: underline;	
 }
-.lienhe br{
+.lien-he br{
 	height: 200%;
 }
-.lienhe form{
+.lien-he form{
 	text-align: center;
 }
-.lienhe form input{
+.lien-he form input{
 	width: 80%;
 	margin-top: 20px;	
 	padding-left: 1em;
 }
-.lienhe form input[type='text']{
+.lien-he form input[type='text']{
 	height: 50px;
 }
-.lienhe form textarea{
+.lien-he form textarea{
   width: 80%;
   margin-top: 20px;
   height: 150px;
   max-height: 300px;
   padding: 1em;
 }
-.lienhe .noscroll{
+.lien-he .noscroll{
   overflow: hidden;
   resize: none;
 }
-.lienhe .hiddendiv{
+.lien-he .hiddendiv{
   display: none;
   white-space: pre-wrap;
   width: 80%;
@@ -448,10 +460,10 @@ h5 {
   overflow-x: wrap;
   word-wrap: break-word;
 }
-.lienhe .lbr {
+.lien-he .lbr {
   line-height: 2em;
 }
-.lienhe form input[type='submit']{
+.lien-he form input[type='submit']{
 	background-color: rgb(7, 112, 183);
 	color:white;
 	border: none;
@@ -461,25 +473,25 @@ h5 {
 	padding-left: 1em;
 }
 
-.thutuc{
+.thu-tuc{
   padding: 10px;
   margin-bottom: 50px;
 }
 
-.tintuc{
+.tin-tuc{
 	margin-top: 50px;
 }
-.tintuc article{
+.tin-tuc article{
   margin-bottom: 20px;
 }
-.tintuc section{
+.tin-tuc section{
 	padding: 10px;
 }
-.tintuc section img{
+.tin-tuc section img{
 	width: 100%;
 	height: 200px;
 }
-.tintuc section ul{
+.tin-tuc section ul{
 	padding: 0;
 	margin: 0;
   height: 50px;
@@ -487,31 +499,31 @@ h5 {
   overflow-x: hidden;
   display: flex;
 }
-.tintuc section li{
+.tin-tuc section li{
 	display: inline-block;
   width: 50%;
   font-size: 14px;
   padding: 10px;
 }
-.tintuc section li i{
+.tin-tuc section li i{
 	color: #f58020;
 	font-size: 22px;
 }
-.tintuc section h6,p,a{
+.tin-tuc section h6,p,a{
 	padding:10px;
 	margin: 0;
 }
-.tintuc section h6{
+.tin-tuc section h6{
 	color:#1c699f;
 }
-.tintuc p{
+.tin-tuc p{
   height: 8em;
   overflow-y:hidden;
 }
-.tintuc form{
+.tin-tuc form{
 	text-align: center;
 }
-.tintuc .carousel-indicators li{
+.tin-tuc .carousel-indicators li{
   width: 18px;
   height: 18px;
   border: 1px solid rgba(7, 112, 183, 1);
@@ -519,49 +531,47 @@ h5 {
   opacity: 1;
   position: relative;
 }
-.tintuc .carousel-indicators li.active div{
+.tin-tuc .carousel-indicators li.active div{
  position: absolute;
-  margin: 0;
-  padding: 0;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: rgb(7, 112, 183);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+ margin: 0;
+ padding: 0;
+ width: 12px;
+ height: 12px;
+ border-radius: 50%;
+ background: rgb(7, 112, 183);
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
 }
 /*footer*/
 footer{
 	margin-top: 50px;
 }
 footer div.col-md-4{
-	padding: 20px;
+	padding: 50px;
 }
 footer img{
-	width: 80%;
+	width: 100%;
+  margin-bottom: 10px;
 }
 footer p{
 	margin-top: 10px;
+}
+footer h5{
+  margin-bottom: 30px;
 }
 /*xong cot 1*/
 .loaidichvu{
 	padding: 30px
 }
-.loaidichvu h5{
-	margin-bottom: 30px;
-}
 .loaidichvu p{
 	padding: 0;
-	margin-top: 15px;
+  font-size: 14px;
+  margin-top: 15px;
 }
 .loaidichvu hr{
 	padding: 0px 0px;
 	margin: 2px; 
-}
-
-.hotrokhachhang h5{
-	margin-bottom: 30px;
 }
 .hotrokhachhang h6{
 	margin-top:20px;
@@ -610,10 +620,10 @@ footer> h5 {
   .headertop i{
     margin-left: 40px;
   }
-  .doitac figure img {
+  .doi-tac figure img {
     margin-top: 10px;
   }
-  .doitac aside div{
+  .doi-tac aside div{
     height: 180px;
   }
 
@@ -630,7 +640,7 @@ footer> h5 {
     display: none;
   }
 
-  .thuonghieu {
+  .thuong-hieu {
     left: 50%;
     top: 50%;
     width: 90%;
@@ -640,11 +650,11 @@ footer> h5 {
     color: white;
   }
 
-  .thuonghieu h1 {
+  .thuong-hieu h1 {
     font-size: 8vw;
   }
 
-  .thuonghieu h2 {
+  .thuong-hieu h2 {
     font-size: 4vw;
   }
 
@@ -653,27 +663,23 @@ footer> h5 {
     height: 46px;
     font-size: 12px;
   }
-  .gioi-thieu-thuong-hieu
-  -package-content-img img,
-
-  
   .dichvu section div img {
     height: 250px;
   }
-  .thutuc summary{
+  .thu-tuc summary{
     height: auto;
   }
-  .doitac aside{
+  .doi-tac aside{
     margin-bottom: 0px;
   }
-  .doitac aside:last-child{
+  .doi-tac aside:last-child{
     margin-bottom: 15px;
   }
-  .doitac aside div{
+  .doi-tac aside div{
     height: 150px;
   }
 
-  .tintuc img{
+  .tin-tuc img{
     height: auto;
   }
 }
@@ -741,7 +747,7 @@ footer> h5 {
   .overview {
     height: 360px;
   }
-  .overview .thuonghieu {
+  .overview .thuong-hieu {
     left: 50%;
     top:50%;
     width: 80%;
@@ -749,13 +755,13 @@ footer> h5 {
     padding: 20px;
   }
 
-  .overview .thuonghieu h1 {
+  .overview .thuong-hieu h1 {
     font-size: 6vw;
   }
-  .overview .thuonghieu h2 {
+  .overview .thuong-hieu h2 {
     font-size: 3vw;
   }
-  .overview .thuonghieu h1,
+  .overview .thuong-hieu h1,
   h2 {
     margin-top: 0px;
   }
@@ -763,7 +769,7 @@ footer> h5 {
     margin: 0px;
   }
 
-  .overview .thuonghieu button {
+  .overview .thuong-hieu button {
     width: 80px;
     height: 30px;
     margin-right: 20px;
@@ -774,19 +780,16 @@ footer> h5 {
    border: none;
  }
 
- .gioi-thieu-thuong-hieu
- -package-content-img img,
-
- .thutuc{
+ .thu-tuc{
   padding: 0;
 }
-.thutuc div{
+.thu-tuc div{
   box-shadow: none;
 }
-.thutuc h5,p{
+.thu-tuc h5,p{
   margin: 0px 0px 15px;
 }
-.thutuc p{
+.thu-tuc p{
   padding: 0;
 }
 .headertop div ul:first-child {
@@ -800,38 +803,38 @@ footer> h5 {
   width: 150px;
   height: 50px
 }
-.doitac aside{
+.doi-tac aside{
   padding: 5px;
   margin:auto;
   width: 90%;
 }
-.doitac aside div{
+.doi-tac aside div{
   height: auto;
 }
-.doitac figure img {
+.doi-tac figure img {
   width: 80px;
   height: 40px;
   margin-top: 10px;
 }
-.tintuc p{
+.tin-tuc p{
   height: auto;
   overflow-y:hidden;
 }
-.tintuc form{
+.tin-tuc form{
   display: none;
 }
-.dangky>div>h4{
+.dang-ky>div>h4{
   margin: 10px; 
 }
-.dangky{
+.dang-ky{
   height: 230px;
 }
-.dangky>form> input[type="text"]{
+.dang-ky>form> input[type="text"]{
   width: 145px;
   height: 25px;
   margin: 5px;
 }
-.dangky>form> input[type="submit"]{
+.dang-ky>form> input[type="submit"]{
   margin: 20px;
 }
 }
