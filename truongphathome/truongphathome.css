@@ -328,7 +328,7 @@ h5 {
 
 
 .dangky{
-	background-image:   linear-gradient(rgba(7, 112, 183, 0.8), rgba(7, 112, 183, 0.8)),url('images/u148.jpg');
+	background-image:   linear-gradient(rgba(7, 112, 183, 0.8), rgba(7, 112, 183, 0.8)),url('images/home/u148.jpg');
 	background-size:cover;
 	background-repeat: no-repeat;
 	height: 300px;
@@ -365,7 +365,7 @@ h5 {
 }
 
 .doitac{
-	background-image:  linear-gradient(rgba(7, 112, 183, 0.8), rgba(7, 112, 183, 0.8)),url("images/u3.jpg");
+	background-image:  linear-gradient(rgba(7, 112, 183, 0.8), rgba(7, 112, 183, 0.8)),url("images/home/u3.jpg");
 	background-size: cover;
 	color: white;
 }
@@ -429,11 +429,27 @@ h5 {
 	height: 50px;
 }
 .lienhe form textarea{
-  resize: none;
   width: 80%;
   margin-top: 20px;
   height: 150px;
+  max-height: 300px;
   padding: 1em;
+}
+.lienhe .noscroll{
+  overflow: hidden;
+  resize: none;
+}
+.lienhe .hiddendiv{
+  display: none;
+  white-space: pre-wrap;
+  width: 80%;
+  min-height: 150px;
+  padding: 1em;
+  overflow-x: wrap;
+  word-wrap: break-word;
+}
+.lienhe .lbr {
+  line-height: 2em;
 }
 .lienhe form input[type='submit']{
 	background-color: rgb(7, 112, 183);
@@ -496,16 +512,25 @@ h5 {
 	text-align: center;
 }
 .tintuc .carousel-indicators li{
-  width: 15px;
-  height: 15px;
-  border: 1px solid blue;
+  width: 18px;
+  height: 18px;
+  border: 1px solid rgba(7, 112, 183, 1);
   border-radius: 50%;
   opacity: 1;
+  position: relative;
 }
-.tintuc .carousel-indicators li.active{
-    background-image: radial-gradient(closest-side at  50% 50%,blue ,white);
+.tintuc .carousel-indicators li.active div{
+ position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgb(7, 112, 183);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
-
 /*footer*/
 footer{
 	margin-top: 50px;
@@ -752,7 +777,7 @@ footer> h5 {
  .gioi-thieu-thuong-hieu
  -package-content-img img,
 
-.thutuc{
+ .thutuc{
   padding: 0;
 }
 .thutuc div{
