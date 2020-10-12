@@ -166,6 +166,9 @@ h5,h6 {
 .chat-luong-dich-vu section p{
 	text-align: left;
 }
+.tam-nhin img{
+	display: none;
+}
 .tam-nhin .tam-nhin-cua-chung-toi{
 	background-image: url('vechungtoiImg/u172.jpg');
 	background-size: cover;
@@ -286,8 +289,7 @@ footer> h5 {
 	.tam-nhin-cua-chung-toi-content{
 		padding: 50px;
 		position: relative;
-		left: 50%;
-		transform: translate(-50%);
+		left: 30%;
 	}
 	footer div.col-md-4{
 		padding: 10px;
@@ -357,9 +359,7 @@ footer> h5 {
 		margin:0px;
 		padding: 0px;
 	}
-	.ve-cong-ty aside img {
-		max-height: 150px;
-	}
+	
 	.headertop img{
 		margin-top: 10px;
 	}
@@ -367,5 +367,12 @@ footer> h5 {
 		width: 150px;
 		height: 50px
 	}
-	
+	.ve-cong-ty aside img {
+		max-height: 150px;
+	}
+	.tam-nhin-cua-chung-toi-content{
+		font-size: 8px;
+		padding: 10px;
+		position: relative;
+	}
 }
