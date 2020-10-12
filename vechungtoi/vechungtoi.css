@@ -104,8 +104,9 @@ nav button i{
 	margin: auto;
 }
 .ve-cong-ty aside h3,
-h4,
-h5,h6 {
+.ve-cong-ty aside h4,
+.ve-cong-ty aside h5,
+.ve-cong-ty aside h6 {
 	font-weight: 700;
 	margin-top: 10px;
 }
@@ -166,6 +167,7 @@ h5,h6 {
 .chat-luong-dich-vu section p{
 	text-align: left;
 }
+
 .tam-nhin img{
 	display: none;
 }
@@ -175,20 +177,41 @@ h5,h6 {
 	background-position: center;
 	color: white;
 }
-.tam-nhin-cua-chung-toi-content{
+.tam-nhin  .tam-nhin-cua-chung-toi-content{
 	padding: 80px;
 	position: relative;
 	left: 40%;
 }
-.tam-nhin-cua-chung-toi-content h5{
+.tam-nhin .tam-nhin-cua-chung-toi-content h5{
 	color:white;
 }
+
+.tam-nhin  .thong-tin-ve-chung-toi{
+	background-image: linear-gradient(rgba(11, 115, 183, 0.5),rgba(11, 115, 183, 0.5)), url('vechungtoiImg/u202.png');
+	background-size: cover;
+}
+.tam-nhin  .thong-tin-ve-chung-toi div{
+	justify-content: space-around;
+	padding: 30px;
+}
+.tam-nhin  .thong-tin-ve-chung-toi section{
+	border: 0.5px solid white;
+	color: white;
+	padding: 10px;
+}
+.tam-nhin  .thong-tin-ve-chung-toi section h5{
+	font-weight: 400;
+}
+.tam-nhin  .thong-tin-ve-chung-toi section h5,.tam-nhin  .thong-tin-ve-chung-toi section h1{
+	font-size: 1.5vw;
+}
+
 /*footer*/
 footer{
 	margin-top: 50px;
 }
 footer div.col-md-4{
-	padding: 50px;
+	padding: 30px;
 }
 footer img{
 	width: 100%;
@@ -263,30 +286,30 @@ footer> h5 {
 
 }
 @media only screen and (max-width: 768px) {
-	h1 {     font-size: 12px;
+	h1 {  font-size: 20px;
 	}
 
-	h2 {  font-size: 12px;
+	h2 {  font-size: 18px;
 	}
 
-	h3 {font-size: 12px;
+	h3 {font-size: 17px;
 	}
 
-	h4 {font-size: 12px;
+	h4 {font-size: 16px;
 	}
 
-	h5 {font-size: 12px;
+	h5 {font-size: 15px;
 	}
 
-	h6 {font-size: 12px;
+	h6 {font-size: 14px;
 	}
 
-	body {font-size: 12px;
+	body {font-size: 14px;
 	}
 	.ve-cong-ty aside img {
 		max-height: 300px;
 	}
-	.tam-nhin-cua-chung-toi-content{
+	.tam-nhin  .tam-nhin-cua-chung-toi-content{
 		padding: 50px;
 		position: relative;
 		left: 30%;
@@ -298,19 +321,19 @@ footer> h5 {
 }
 
 @media only screen and (max-width: 576px) {
-	h1 {     font-size: 12px;
+	h1 {  font-size: 18px;
 	}
 
-	h2 {  font-size: 12px;
+	h2 {  font-size: 16px;
 	}
 
-	h3 {font-size: 12px;
+	h3 {font-size: 15px;
 	}
 
-	h4 {font-size: 12px;
+	h4 {font-size: 14px;
 	}
 
-	h5 {font-size: 12px;
+	h5 {font-size: 13px;
 	}
 
 	h6 {font-size: 12px;
@@ -370,9 +393,23 @@ footer> h5 {
 	.ve-cong-ty aside img {
 		max-height: 150px;
 	}
-	.tam-nhin-cua-chung-toi-content{
+	.tam-nhin  .tam-nhin-cua-chung-toi-content{
 		font-size: 8px;
 		padding: 10px;
 		position: relative;
 	}
+	.tam-nhin  .thong-tin-ve-chung-toi section{
+		width: 100%;
+		border: none;
+		margin-top: 10px;
+		padding: 0;
+	}
+	.tam-nhin  .thong-tin-ve-chung-toi section h5{
+	font-size: 12px;
+	}
+	.tam-nhin  .thong-tin-ve-chung-toi section h1{
+		font-size: 14px;
+		font-weight: 700;
+	}
+
 }
