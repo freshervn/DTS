@@ -78,7 +78,7 @@ nav button i{
   color:#0770B7; 
 }
 
-/*body*/
+/*main*/
 /*overview*/
 .overview {
   position: relative;
@@ -582,6 +582,7 @@ footer h5{
 }
 footer ul{
   margin-top: 0px;
+  word-break: break-all;
 }
 #socialnetwork{
   list-style-type: none;  

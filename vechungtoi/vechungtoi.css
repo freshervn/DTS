@@ -1,6 +1,16 @@
-body{
-	font-family: 'UTM Avo Bold', 'UTM Avo Regular', 'UTM Avo';
+* {
+  box-sizing: border-box;
+  outline: none;
 }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'UTM Avo Bold', 'UTM Avo Regular', 'UTM Avo';
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .TitleUnderLine {
 	color: #1c699f;
 	width: fit-content;
@@ -80,11 +90,12 @@ nav button i{
 
 /*main*/
 #vechungtoicarousel{
-	background-image: url('vechungtoiImg/u194.jpg');
+	background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url('vechungtoiImg/u194.jpg');
 	background-size: cover;
 	background-position: center;
-	height: 30vw;
+	height: 20vw;
 	position: relative;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 #vechungtoicarousel span{
 	position: absolute;
@@ -242,8 +253,7 @@ footer h5{
 }
 footer ul{
 	margin-top: 0px;
-	padding-left: 30px;
-	overflow-wrap: break-word;
+	word-break: break-all;
 }
 #socialnetwork{
 	list-style-type: none;	
@@ -405,7 +415,7 @@ footer> h5 {
 		padding: 0;
 	}
 	.tam-nhin  .thong-tin-ve-chung-toi section h5{
-	font-size: 12px;
+		font-size: 12px;
 	}
 	.tam-nhin  .thong-tin-ve-chung-toi section h1{
 		font-size: 14px;
