@@ -5,7 +5,6 @@
 }
 * {
   box-sizing: border-box;
-  outline: none;
 }
 body {
   margin: 0;
@@ -15,17 +14,19 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
-
+/*thu vien buton*/
 .red-span{
   color: red;
 }
 .gray-span{
   color: DarkGrey;
 }
+
 /*header*/
 .headertop{
   background-color: #0871b5;
 }
+/*chỉnh cái thanh mau xah tren cung*/
 .headertop>div{
   text-align: right;
 }
