@@ -1,0 +1,513 @@
+/*format dau tien*/
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'UTM Avo Bold', 'UTM Avo Regular', 'UTM Avo';
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/*header*/
+.headertop{
+  background-color: #0871b5;
+}
+.headertop>div{
+  text-align: right;
+}
+.headertop img{
+  width: 30px;
+  height: 20px;
+}
+.headertop ul{
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 50px;
+  padding-bottom: 0;
+  box-sizing: border-box;
+}
+.headertop li{
+  display: inline-block;
+  color: white;
+}
+.headertop i{
+  color: #ea8631;
+  font-size: 17px;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+.headertop .fa-phone{
+  font-size: 24px;
+  position: relative;
+  top:5px;
+}
+/*navbar*/
+.navbar-brand{
+  width: 50%;
+}
+.navbar .navbar-brand img {
+  width: 220px;
+  height: 53px;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+  background-color: white !important;
+}
+nav button i{
+  color: #146f9c;
+}
+.collapse.navbar-collapse{
+  margin: 0;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light .nav-link{
+  font-family: 'Roboto Bold', 'Roboto Regular', 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  font-style: normal;
+  color: #0770B7;
+  margin-right: 20px;
+}
+.nav-link:hover{
+  filter: brightness(50%);
+}
+.dropdown-item:hover{
+  background-color:#f9f9f9; 
+  color:#0770B7; 
+}
+/*main*/
+#cante-tin-tuc-home{
+  background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('cante-tin-tuc-img/u502.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 15vw;
+  position: relative;
+}
+#cante-tin-tuc-home span{
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translate(-50%,0);
+  color: var(--light);
+}
+.tin-tuc{
+  margin-top: 50px;
+}
+.tin-tuc section{
+  padding: 10px;
+}
+.tin-tuc section img{
+  width: 100%;
+  height: 200px;
+  z-index: 1;
+}
+.tin-tuc section div>div{
+	margin:10px; 
+	box-shadow: 3px 3px 10px 0px #d5d5d5;
+	border-radius: 5px;
+	position: relative;
+	top: -20px;
+	z-index: 1;
+	background: white;
+	padding: 20px;
+}
+.tin-tuc section ul{
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  overflow: hidden;
+}
+.tin-tuc section li{
+  display: inline-block;
+  width: 50%;
+  font-size: 14px;
+  padding: 10px;
+}
+.tin-tuc section li i{
+  color: #f58020;
+  font-size: 18px;
+}
+.tin-tuc section h6{
+	font-weight: 700;
+}
+.tin-tuc section h6,.tin-tuc section h6 p,.tin-tuc section h6 a{
+  padding:10px;
+  margin: 0;
+}
+.tin-tuc section h6{
+  color:#1c699f;
+}
+.tin-tuc p{
+  height: 8em;
+  overflow-y:hidden;
+}
+
+.tin-tuc button{
+  box-sizing: border-box;
+  border: 1px solid #d6d6d6 !important;
+  outline: none;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+.tin-tuc .owl-next{
+	
+}
+.tin-tuc button span{
+}
+.tin-tuc button.active{
+}
+.tin-tuc button.active span{
+
+}
+
+.doi-tac{
+  background-image:  linear-gradient(rgba(7, 112, 183, 0.8), rgba(7, 112, 183, 0.8)),url("cante-tin-tuc-img/u3.jpg");
+  background-size: cover;
+  color: white;
+}
+.doi-tac div h4{
+  text-align: center;
+  padding-top: 40px;
+}
+.doi-tac hr{
+  width: 100px;
+  height: 1px;
+  margin-top: 0;
+  background-color:  #c58c5f;
+}
+.doi-tac div h6{
+  text-align: center;
+}
+.doi-tac figure{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.doi-tac figure img {
+  width: 128px;
+  height: 66px;
+  background-color: white;
+}
+.doi-tac aside{
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.doi-tac aside div{
+  border: 1px solid;
+  height: 150px;
+  overflow-x: hidden; 
+}
+.doi-tac aside div h6{
+  margin-top: 10px;
+  font-weight: bold;
+}
+.doi-tac aside div p{
+  margin: 10px;
+}
+
+/*footer*/
+footer{
+  margin-top: 50px;
+}
+footer div.col-md-4{
+  padding: 50px;
+}
+footer img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+footer p{
+  margin-top: 10px;
+}
+footer h5{
+  margin-bottom: 30px;
+}
+/*xong cot 1*/
+.loaidichvu{
+  padding: 30px
+}
+.loaidichvu p{
+  padding: 0;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.loaidichvu hr{
+  padding: 0px 0px;
+  margin: 2px; 
+}
+.hotrokhachhang h6{
+  margin-top:20px;
+  margin-bottom: 2px;
+}
+footer ul{
+  margin-top: 0px;
+  word-break: break-all;
+}
+#socialnetwork{
+  list-style-type: none;  
+}
+#socialnetwork li{
+  display: inline-block;
+  color: #646464;
+  margin-right: 20px;
+  width: 35px;
+  height:35px;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid black;
+}
+#socialnetwork li i{
+  position: relative;
+  top: 50%;
+  transform: translate(0,-50%);
+}
+footer> h5 {
+  background-color: #0870b7;
+  text-align: center;
+  color: white;
+  margin:0;
+}
+
+.TitleUnderLine {
+  color: #1c699f;
+  width: fit-content;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #c58c5f;
+  font-weight: 700;
+}
+/*reponsive*/
+@media only screen and (max-width: 992px) {
+  .headertop ul{
+    padding-left: 10px;
+  }
+  .headertop i{
+    margin-left: 40px;
+  }
+  .doi-tac figure img {
+    margin-top: 10px;
+  }
+  .doi-tac aside div{
+    height: 180px;
+  }
+
+
+}
+@media only screen and (max-width: 768px) {
+  .overview {
+    width: 100%;
+    height: 400px;
+    font-size: 12px;
+  }
+  .prev,
+  .next {
+    display: none;
+  }
+
+  .thuong-hieu {
+    left: 50%;
+    top: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: rgba(7, 112, 183, .7);
+    color: white;
+  }
+
+  .thuong-hieu h1 {
+    font-size: 8vw;
+  }
+
+  .thuong-hieu h2 {
+    font-size: 4vw;
+  }
+
+  .overview-button {
+    width: 150px;
+    height: 46px;
+    font-size: 12px;
+  }
+  .dichvu section div img {
+    height: 250px;
+  }
+  .thu-tuc summary{
+    height: auto;
+  }
+  .doi-tac aside{
+    margin-bottom: 0px;
+  }
+  .doi-tac aside:last-child{
+    margin-bottom: 15px;
+  }
+  .doi-tac aside div{
+    height: 150px;
+  }
+
+  .tin-tuc img{
+    height: auto;
+  }
+  footer div.col-md-4{
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  h1 {     font-size: 12px;
+  }
+
+  h2 {  font-size: 12px;
+  }
+
+  h3 {font-size: 12px;
+  }
+
+  h4 {font-size: 12px;
+  }
+
+  h5 {font-size: 12px;
+  }
+
+  h6 {font-size: 12px;
+  }
+
+  body {font-size: 12px;
+  }
+
+  .truongphatnavbar{
+    padding: 0px;
+  }
+  .navbar .navbar-brand img {
+    width: 180px;
+    height: 40px;
+  }
+
+  .nav-item{
+    background-color: #0770B7;
+    font-size: 10px;
+  }
+
+  .navbar.navbar-expand-lg.navbar-light.bg-light .nav-item:hover{
+    background-color: white;
+  }
+  .navbar.navbar-expand-lg.navbar-light.bg-light .nav-link
+  {
+    font-size: 12px;
+    margin: 0px;
+    color: white;
+    padding: 10px;
+  }
+  .navbar.navbar-expand-lg.navbar-light.bg-light .nav-link:hover{
+    color:  #0770B7 !important;
+    z-index: 1000;
+  }
+  #navbarSupportedContent{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    align-self: right;
+    margin:0px;
+    padding: 0px;
+  }
+
+  .overview {
+    height: 360px;
+  }
+  .overview .thuong-hieu {
+    left: 50%;
+    top:50%;
+    width: 80%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+  }
+
+  .overview .thuong-hieu h1 {
+    font-size: 6vw;
+  }
+  .overview .thuong-hieu h2 {
+    font-size: 3vw;
+  }
+  .overview .thuong-hieu h1,
+  h2 {
+    margin-top: 0px;
+  }
+  .overview p {
+    margin: 0px;
+  }
+
+  .overview .thuong-hieu button {
+    width: 80px;
+    height: 30px;
+    margin-right: 20px;
+    font-size: 7px;
+    font-weight: 700;
+  }
+  .gia-tri-thuong-hieu section{
+   border: none;
+ }
+
+ .thu-tuc{
+  padding: 0;
+}
+.thu-tuc div{
+  box-shadow: none;
+}
+.thu-tuc h5,p{
+  margin: 0px 0px 15px;
+}
+.thu-tuc p{
+  padding: 0;
+}
+.headertop div ul:first-child {
+  display: none;
+  color: red;
+}
+.headertop img{
+  margin-top: 10px;
+}
+.truongphatnavbar img{
+  width: 150px;
+  height: 50px
+}
+.doi-tac aside{
+  padding: 5px;
+  margin:auto;
+  width: 90%;
+}
+.doi-tac aside div{
+  height: auto;
+}
+.doi-tac figure img {
+  width: 80px;
+  height: 40px;
+  margin-top: 10px;
+}
+.tin-tuc p{
+  height: auto;
+  overflow-y:hidden;
+}
+.tin-tuc button{
+  display: none !important; 
+}
+.dang-ky>div>h4{
+  margin: 10px; 
+}
+.dang-ky{
+  height: 230px;
+}
+.dang-ky>form> input[type="text"]{
+  width: 145px;
+  height: 25px;
+  margin: 5px;
+}
+.dang-ky>form> input[type="submit"]{
+  margin: 20px;
+}
+}
