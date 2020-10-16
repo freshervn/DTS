@@ -162,9 +162,6 @@ body::-webkit-scrollbar {
 
 	body {font-size: 14px;
 	}
-	.ve-cong-ty picture img {
-		max-height: 300px;
-	}
 	.tam-nhin  .tam-nhin-cua-chung-toi-content{
 		padding: 50px;
 		position: relative;
