@@ -30,6 +30,24 @@
 .TitleOrange{
   color: #f58020;
 }
+.blue-btn{
+  background: var(--blue-primary);
+  color: var(--white);
+  border: var(--blue-disabled);
+}
+.blue-btn:hover{
+  background-color: var(--blue-disabled);
+}
+.blue-btn:active{
+  background-color: var(--orange-primary);
+}
+.blue-btn:focus{
+  border: 2px solid var(--orange-primary); 
+}
+.blue-btn:checked{
+  background-color: var(--blue-disabled);
+}
+.blue-btn
 /*header*/
 .headertop{
   background-color: #0871b5;

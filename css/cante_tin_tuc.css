@@ -17,12 +17,13 @@ body::-webkit-scrollbar {
   background-repeat: no-repeat;
   height: 300px;
   position: relative;
+  background-position: center;
 }
 .cante-tin-tuc-home span{
   position: absolute;
   bottom: 10px;
   left: 50%;
-  transform: (-50%);
+  transform: translate(-50%);
   color: white;
 }
 .tin-tuc{
@@ -36,7 +37,7 @@ body::-webkit-scrollbar {
   height: 200px;
   z-index: 1;
 }
-.tin-tuc section div>div{
+.tin-tuc section div>div.noi-dung{
 	margin:10px; 
 	box-shadow: 3px 3px 10px 0px #d5d5d5;
 	border-radius: 5px;
@@ -46,7 +47,9 @@ body::-webkit-scrollbar {
 	background: white;
 	padding: 20px;
 }
-.tin-tuc section ul{
+
+/*icon*/
+.tin-tuc section div>div.noi-dung ul{
   padding: 0;
   margin: 0;
   height: 50px;
@@ -55,32 +58,32 @@ body::-webkit-scrollbar {
   display: flex;
   overflow: hidden;
 }
-.tin-tuc section li{
+.tin-tuc section div>div.noi-dung li{
   display: inline-block;
   width: 50%;
   font-size: 14px;
   padding: 10px;
 }
-.tin-tuc section li i{
+.tin-tuc section div>div.noi-dung li i{
   color: #f58020;
   font-size: 18px;
 }
-.tin-tuc section h6{
+.tin-tuc section div>div.noi-dung h6{
 	font-weight: 700;
 }
-.tin-tuc section h6,.tin-tuc section h6 p,.tin-tuc section h6 a{
+.tin-tuc section  div>div.noi-dung h6,.tin-tuc section  div>div.noi-dung h6 p,.tin-tuc section div>div.noi-dung h6 a{
   padding:10px;
   margin: 0;
 }
-.tin-tuc section h6{
+.tin-tuc section div>div.noi-dung h6{
   color:#1c699f;
 }
-.tin-tuc p{
+.tin-tuc div>div.noi-dung p{
   height: 8em;
   overflow-y:hidden;
 }
 
-.tin-tuc button{
+.tin-tuc div>div.noi-dung button{
   box-sizing: border-box;
   border: 1px solid #d6d6d6 !important;
   outline: none;
@@ -88,21 +91,21 @@ body::-webkit-scrollbar {
   height: 40px;
   text-align: center;
 }
-.tin-tuc .owl-next{
-	
+.tin-tuc .slide-pages {
+  text-align: center;
 }
-.tin-tuc button span{
-}
-.tin-tuc button.active{
-}
-.tin-tuc button.active span{
-
+.tin-tuc .slide-pages button{
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  outline: none;
 }
 
 .doi-tac{
   background-image:  linear-gradient(rgba(7, 112, 183, 0.8), rgba(7, 112, 183, 0.8)),url("../img/u3.jpg");
   background-size: cover;
   color: white;
+  margin: 50px 0 0 0;
 }
 .doi-tac div h4{
   text-align: center;

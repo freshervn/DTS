@@ -19,12 +19,13 @@ body::-webkit-scrollbar {
   background-repeat: no-repeat;
   height: 300px;
   position: relative;
+  background-position: center;
 }
 .blog-tin-tuc-home span{
   position: absolute;
   bottom: 10px;
   left: 50%;
-  transform: (-50%);
+  transform: translate(-50%,0);
   color: white;
 }
 .tin-chinh{

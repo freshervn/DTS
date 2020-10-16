@@ -1,3 +1,6 @@
+- dich vu he can chinh lai reponsive
+- them cai 3 cham vao cac paragrap
+- them js cho trang cante tin tuc.
 kinh nhiệm làm web đầu tiên.
 * tạo root trước khi làm web, tổ chức theo 4 phần html file, css folder, js folder, img forder.
 1. học cách nối link file css, từ thư mục khác về file html,"../"để nối file từ thư mục cùng thư mục mẹ.
