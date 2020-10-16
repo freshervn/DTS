@@ -1,4 +1,3 @@
-- dich vu he can chinh lai reponsive
 - them cai 3 cham vao cac paragrap
 - them js cho trang cante tin tuc.
 kinh nhiệm làm web đầu tiên.

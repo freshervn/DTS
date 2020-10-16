@@ -47,36 +47,42 @@
 .blue-btn:checked{
   background-color: var(--blue-disabled);
 }
-.blue-btn
+.paragraph-limited{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient:vertical;
+}
 /*header*/
-.headertop{
+header .headertop{
   background-color: #0871b5;
 }
-.headertop>div{
+header .headertop>div{
   text-align: right;
 }
-.headertop img{
+header .headertop img{
   width: 30px;
   height: 20px;
 }
-.headertop ul{
+header .headertop ul{
   list-style-type: none;
   display: inline-block;
   padding-left: 50px;
   padding-bottom: 0;
   box-sizing: border-box;
 }
-.headertop li{
+header .headertop li{
   display: inline-block;
   color: white;
 }
-.headertop i{
+header .headertop i{
   color: #ea8631;
   font-size: 17px;
   margin-left: 120px;
   margin-top: 10px;
 }
-.headertop .fa-phone{
+header .headertop .fa-phone{
   font-size: 24px;
   position: relative;
   top:5px;
@@ -95,10 +101,10 @@
 nav button i{
   color: #146f9c;
 }
-.collapse.navbar-collapse{
+header .collapse.navbar-collapse{
   margin: 0;
 }
-.navbar.navbar-expand-lg.navbar-light.bg-light .nav-link{
+header .navbar.navbar-expand-lg.navbar-light.bg-light .nav-link{
   font-family: 'Roboto Bold', 'Roboto Regular', 'Roboto';
   font-weight: 700;
   font-size: 16px;
@@ -106,10 +112,10 @@ nav button i{
   color: #0770B7;
   margin-right: 20px;
 }
-.nav-link:hover{
+header .nav-link:hover{
   filter: brightness(50%);
 }
-.dropdown-item:hover{
+header .dropdown-item:hover{
   background-color:#f9f9f9; 
   color:#0770B7; 
 }
@@ -131,19 +137,19 @@ footer h5{
   margin-bottom: 30px;
 }
 /*xong cot 1*/
-.loaidichvu{
+footer .loaidichvu{
   padding: 30px
 }
-.loaidichvu p{
+footer .loaidichvu p{
   padding: 0;
   font-size: 14px;
   margin-top: 15px;
 }
-.loaidichvu hr{
+footer .loaidichvu hr{
   padding: 0px 0px;
   margin: 2px; 
 }
-.hotrokhachhang h6{
+footer .hotrokhachhang h6{
   margin-top:20px;
   margin-bottom: 2px;
 }
@@ -151,10 +157,10 @@ footer ul{
   margin-top: 0px;
   word-break: break-all;
 }
-#socialnetwork{
+footer #socialnetwork{
   list-style-type: none;  
 }
-#socialnetwork li{
+footer #socialnetwork li{
   display: inline-block;
   color: #646464;
   margin-right: 20px;
@@ -164,7 +170,7 @@ footer ul{
   text-align: center;
   border: 1px solid black;
 }
-#socialnetwork li i{
+footer #socialnetwork li i{
   position: relative;
   top: 50%;
   transform: translate(0,-50%);

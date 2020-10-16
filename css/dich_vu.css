@@ -9,11 +9,14 @@ body {
   padding: 0;
   font-family: 'UTM Avo Bold', 'UTM Avo Regular', 'UTM Avo';
 }
-body::-webkit-scrollbar {
+body::-webkit-scrollbar{
   display: none;
 }
 
 /*main*/
+.headertop{
+  background-color: red;
+}
 .overview {
   position: relative;
   width: 100%;
@@ -59,7 +62,6 @@ body::-webkit-scrollbar {
 }
 .tin-chinh aside>div{
   box-shadow: 3px 3px 5px 3px #d5d5d5;
-  margin-top: 30px;
 }
 .tin-chinh aside.noi-dung div{
   padding: 15px;
@@ -72,8 +74,14 @@ body::-webkit-scrollbar {
   font-weight: 700;
   margin-top: 20px; 
 }
+.tin-chinh .bang-tin div{
+  margin-top: 20px;
+}
+.tin-chinh .bang-tin div:first-child{
+  margin-top: 0;
+}
 .tin-chinh .bang-tin h5{
-  background: var(--btn-blue-primary);
+  background: var(--blue-primary);
   padding: 10px;
   text-shadow:#d5d5d5;
   color: white;
@@ -107,6 +115,7 @@ body::-webkit-scrollbar {
 .tin-chinh .bang-tin .ho-tro  div p{
   width: calc(100% - 50px);
   margin: 0;
+  word-break: break-all;
 }
 .tam-nhin {
   margin: 30px;
@@ -159,18 +168,13 @@ body::-webkit-scrollbar {
   color: #f58020;
   font-size: 22px;
 }
-.tin-tuc section h6,p,a{
+.tin-tuc section h6, .tin-tuc section h6a{
   padding:10px;
   margin: 0;
 }
 .tin-tuc section h6{
   color:#1c699f;
 }
-.tin-tuc p{
-  height: 8em;
-  overflow-y:hidden;
-}
-
 .tin-tuc button{
   box-sizing: border-box;
   border: 1px solid #d6d6d6 !important;
@@ -251,16 +255,15 @@ body::-webkit-scrollbar {
     height: 400px;
     font-size: 12px;
   }
-  .prev,
-  .next {
-    display: none;
-  }
 
-  .thuong-hieu {
+  .overview .thuong-hieu {
+
     left: 50%;
-    top: 50%;
-    width: 90%;
-    transform: translate(-50%, -50%);
+    top:50%;
+    width: 80%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    left: 50%;
     padding: 20px;
     background-color: rgba(7, 112, 183, .7);
     color: white;
@@ -279,11 +282,8 @@ body::-webkit-scrollbar {
     height: 46px;
     font-size: 12px;
   }
-  .dichvu section div img {
-    height: 250px;
-  }
-  .thu-tuc summary{
-    height: auto;
+  .tin-chinh aside{
+    padding: 10px 10px;
   }
   .doi-tac aside{
     margin-bottom: 0px;
@@ -294,74 +294,12 @@ body::-webkit-scrollbar {
   .doi-tac aside div{
     height: 150px;
   }
-
   .tin-tuc img{
     height: auto;
-  }
-  footer div.col-md-4{
-    padding: 10px;
   }
 }
 
 @media only screen and (max-width: 576px) {
-  h1 {     font-size: 12px;
-  }
-
-  h2 {  font-size: 12px;
-  }
-
-  h3 {font-size: 12px;
-  }
-
-  h4 {font-size: 12px;
-  }
-
-  h5 {font-size: 12px;
-  }
-
-  h6 {font-size: 12px;
-  }
-
-  body {font-size: 12px;
-  }
-
-  .truongphatnavbar{
-    padding: 0px;
-  }
-  .navbar .navbar-brand img {
-    width: 180px;
-    height: 40px;
-  }
-
-  .nav-item{
-    background-color: #0770B7;
-    font-size: 10px;
-  }
-
-  .navbar.navbar-expand-lg.navbar-light.bg-light .nav-item:hover{
-    background-color: white;
-  }
-  .navbar.navbar-expand-lg.navbar-light.bg-light .nav-link
-  {
-    font-size: 12px;
-    margin: 0px;
-    color: white;
-    padding: 10px;
-  }
-  .navbar.navbar-expand-lg.navbar-light.bg-light .nav-link:hover{
-    color:  #0770B7 !important;
-    z-index: 1000;
-  }
-  #navbarSupportedContent{
-    position: absolute;
-    top: 100%;
-    right: 0;
-    left: 0;
-    z-index: 100;
-    align-self: right;
-    margin:0px;
-    padding: 0px;
-  }
 
   .overview {
     height: 360px;
@@ -410,17 +348,6 @@ body::-webkit-scrollbar {
 }
 .thu-tuc p{
   padding: 0;
-}
-.headertop div ul:first-child {
-  display: none;
-  color: red;
-}
-.headertop img{
-  margin-top: 10px;
-}
-.truongphatnavbar img{
-  width: 150px;
-  height: 50px
 }
 .doi-tac aside{
   padding: 5px;
