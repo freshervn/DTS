@@ -441,16 +441,12 @@ h2 {
   color: #f58020;
   font-size: 22px;
 }
-.tin-tuc section h6,p,a{
+.tin-tuc section h6,a{
   padding:10px;
   margin: 0;
 }
 .tin-tuc section h6{
   color:#1c699f;
-}
-.tin-tuc p{
-  height: 8em;
-  overflow-y:hidden;
 }
 
 .tin-tuc button{
