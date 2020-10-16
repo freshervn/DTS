@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'UTM Avo Bold', 'UTM Avo Regular', 'UTM Avo';
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+/*main*/
+.ve-chung-toi{
+	background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url('../img/u194.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 20vw;
+	position: relative;
+	margin-top: 0;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.ve-chung-toi span{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+	color: white;
+}
+.ve-cong-ty picture{
+	padding: 0;
+}
+.ve-cong-ty picture img {
+	width: 100%;
+	height: 100%;
+	min-height: 300px;
+}
+.ve-cong-ty aside h3,
+.ve-cong-ty aside h4,
+.ve-cong-ty aside h5,
+.ve-cong-ty aside h6 {
+	font-weight: 700;
+	margin-top: 10px;
+}
+.ve-cong-ty aside button {
+	margin-top: 10px;
+	padding: 10px 35px ;
+	border-radius: 5px;
+	background-color: #0971b8;
+	color: white;
+	border: none;
+	outline: none;
+}
+.ve-cong-ty aside button:hover{
+	background: #f58020;
+	border: none;
+	border-radius: 5px;
+}
+.ve-cong-ty aside button:active{
+	background-color: inherit;
+	border: 1px solid #0971b8;
+	color:   #0971b8;
+	transition: 0.5;
+}
+
+/*ly-do-chon-chung-toi*/
+.ly-do-chon-chung-toi{
+	background-color: rgba(204, 204, 204, 0.219607843137255);
+	padding-bottom: 30px;
+	margin-top: 5vw;
+}
+.ly-do-chon-chung-toi h6{
+	text-align: center;
+}
+.ly-do-chon-chung-toi h4{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+.ly-do-chon-chung-toi section{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.ly-do-chon-chung-toi section img{
+	width: 100%;
+}
+
+.chat-luong-dich-vu {
+	text-align: center;
+}
+.chat-luong-dich-vu img {
+	width: 40%;
+	margin: 20px;
+	text-align: center;
+}
+.chat-luong-dich-vu h6 {
+	font-weight: bold;
+	text-align: center;
+}
+.chat-luong-dich-vu section p{
+	text-align: left;
+}
+
+.tam-nhin img{
+	display: none;
+}
+.tam-nhin .tam-nhin-cua-chung-toi{
+	background-image: url('../img/u172.jpg');
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+.tam-nhin  .tam-nhin-cua-chung-toi-content{
+	padding: 80px;
+	position: relative;
+	left: 40%;
+}
+.tam-nhin .tam-nhin-cua-chung-toi-content h5{
+	color:white;
+}
+
+.tam-nhin  .thong-tin-ve-chung-toi{
+	background-image: linear-gradient(rgba(11, 115, 183, 0.5),rgba(11, 115, 183, 0.5)), url('../img/u202.png');
+	background-size: cover;
+}
+.tam-nhin  .thong-tin-ve-chung-toi div{
+	justify-content: space-around;
+	padding: 30px;
+}
+.tam-nhin  .thong-tin-ve-chung-toi section{
+	border: 0.5px solid white;
+	color: white;
+	padding: 10px;
+}
+.tam-nhin  .thong-tin-ve-chung-toi section h5{
+	font-weight: 400;
+}
+.tam-nhin  .thong-tin-ve-chung-toi section h5,.tam-nhin  .thong-tin-ve-chung-toi section h1{
+	font-size: 1.5vw;
+}
+
+/*reponsive*/
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+	h1 {  font-size: 20px;
+	}
+
+	h2 {  font-size: 18px;
+	}
+
+	h3 {font-size: 17px;
+	}
+
+	h4 {font-size: 16px;
+	}
+
+	h5 {font-size: 15px;
+	}
+
+	h6 {font-size: 14px;
+	}
+
+	body {font-size: 14px;
+	}
+	.ve-cong-ty picture img {
+		max-height: 300px;
+	}
+	.tam-nhin  .tam-nhin-cua-chung-toi-content{
+		padding: 50px;
+		position: relative;
+		left: 30%;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	h1 {  font-size: 18px;
+	}
+
+	h2 {  font-size: 16px;
+	}
+
+	h3 {font-size: 15px;
+	}
+
+	h4 {font-size: 14px;
+	}
+
+	h5 {font-size: 13px;
+	}
+
+	h6 {font-size: 12px;
+	}
+
+	body {font-size: 12px;
+	}
+	.ve-cong-ty picture img {
+		max-height: 150px;
+	}
+	.tam-nhin  .tam-nhin-cua-chung-toi-content{
+		font-size: 8px;
+		padding: 10px;
+		position: relative;
+	}
+	.tam-nhin  .thong-tin-ve-chung-toi section{
+		width: 100%;
+		border: none;
+		margin-top: 10px;
+		padding: 0;
+	}
+	.tam-nhin  .thong-tin-ve-chung-toi section h5{
+		font-size: 12px;
+	}
+	.tam-nhin  .thong-tin-ve-chung-toi section h1{
+		font-size: 14px;
+		font-weight: 700;
+	}
+
+}
